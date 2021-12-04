@@ -1,0 +1,13 @@
+package access2;
+
+import com.accessModifier.anonymous.Access1;
+
+public class Access2 {
+
+	public static void main(String[] args) {
+		Access1 roll=new Access1(); 
+		int rollno=2;
+
+	}
+
+}

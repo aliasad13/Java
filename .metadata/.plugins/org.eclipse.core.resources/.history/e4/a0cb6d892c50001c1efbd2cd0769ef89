@@ -1,0 +1,21 @@
+package com.accessModifier.anonymous;
+class A{
+
+
+
+public int result(int i,int j) {
+	return i+j;
+}
+}
+
+//default class only inside package
+public class AccessmodiferTest {
+
+	public static void main(String[] args) {
+		
+		A obj = new A();
+		System.out.println(obj.result(8,9));
+		
+	}
+
+}

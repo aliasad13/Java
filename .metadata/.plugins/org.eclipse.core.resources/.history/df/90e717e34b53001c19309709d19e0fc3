@@ -1,0 +1,21 @@
+package com.test;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		
+		int n = 45654;
+		int  res = 0;
+		
+		 {
+		int remainder = n%10;
+		res = res * 10 + remainder;
+		int div = n/10;
+		
+		System.out.println(res+" ");
+		}
+				
+System.out.println();
+	}
+
+}

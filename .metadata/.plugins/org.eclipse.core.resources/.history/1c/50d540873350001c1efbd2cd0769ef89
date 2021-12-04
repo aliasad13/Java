@@ -1,0 +1,16 @@
+package trycatch;
+
+public class TryCatchException {
+
+	public static void main(String[] args) {
+		int i=12,j=0;
+		try{double res=i/j;
+		System.out.println("gud neit");}               //if the try statment has error,it will immediately jump onto statment of catch
+													   //if no error the statement of try will be executed. 
+		catch (Exception e)
+		{System.out.println("ok beii"););
+		}
+		;
+	}
+
+}

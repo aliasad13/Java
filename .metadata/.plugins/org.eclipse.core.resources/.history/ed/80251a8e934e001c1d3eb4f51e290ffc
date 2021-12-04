@@ -1,0 +1,36 @@
+package interfaceLearning;
+
+class Pen{
+
+public void write()
+{
+	System.out.println("Im a pen");
+}
+}
+class pencil
+{
+public void write() {
+	System.out.println("Im a pencil");
+}	
+}
+
+class Kit{
+
+public void doSomething(Pen p) {
+
+p.write();
+}
+
+	
+	
+}
+public class Interface {
+
+	public static void main(String[] args) {
+                  Pen p = new Pen();
+                  Kit k = new Kit();
+                  
+                p.write();
+	}
+
+}

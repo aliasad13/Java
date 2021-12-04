@@ -1,0 +1,27 @@
+package functinalinterfaceAndlambdaexpression;
+
+interface Abc{
+	
+void show();
+}
+public class FunctionalInterface {
+
+	public static void main(String[] args) {              
+		
+        Abc obj = () ->{
+        		
+        	System.out.println("show"); 
+        	
+        };
+
+obj.show();
+              
+	}}
+
+
+//  Abc obj = new Abc() {
+//public void Show()
+//{
+//System.out.println("shoe"); 
+//}
+//}

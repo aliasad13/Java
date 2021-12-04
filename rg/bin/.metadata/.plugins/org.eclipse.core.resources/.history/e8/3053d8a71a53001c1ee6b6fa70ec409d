@@ -1,0 +1,16 @@
+package com.fibonacci;
+
+//1 1 2 3 5 8 13
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		int i ; int fib=0;
+		int n = 20;
+		System.out.print("1 ");
+		for ( i = 1;i<=n;i++)
+			
+		System.out.print(i+" ");
+	}
+
+}

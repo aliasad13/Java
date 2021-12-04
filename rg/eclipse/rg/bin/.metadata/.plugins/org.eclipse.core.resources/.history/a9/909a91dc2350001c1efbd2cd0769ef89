@@ -1,0 +1,11 @@
+package com.accessModifiers;
+
+public class AccessmodiferTest {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

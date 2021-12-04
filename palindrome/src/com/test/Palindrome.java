@@ -1,0 +1,35 @@
+package com.test;
+import java.util.Scanner;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		
+		System.out.println("no=");
+		int number;
+		number=sc.nextInt();
+		
+		int n =number;
+		int  res = 0;
+		
+		while(n>1) {
+		int remainder = n%10;
+		res = res * 10 + remainder;
+		n = n/10;
+		
+		
+		}
+		System.out.println(res);
+				
+if (number == res) {
+	
+	System.out.println("palindrome");
+}
+else {
+	System.out.println("notpalindrome");
+}
+
+	}
+
+}

@@ -1,0 +1,20 @@
+package revision;
+
+class A{
+	int res;
+	public void perform(int i,int j) {
+	
+		
+		res=i+j;
+	}
+}
+
+public class Revision {
+
+	public static void main(String[] args) {
+		
+				A obj =new A();
+			System.out.println(obj.perform(5, 4));
+	}
+
+}

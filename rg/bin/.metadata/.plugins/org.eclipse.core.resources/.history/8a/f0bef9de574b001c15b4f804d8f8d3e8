@@ -1,0 +1,37 @@
+package objectMethodConstructor;
+
+class Love
+{
+	
+	public Love(int i,int j)
+	{
+		
+	System.out.println(i + j);
+		
+	}
+	
+	public Love(int i,int j,int k)
+	{
+		
+		System.out.println(i+j+k);
+	}
+	
+	public Love(int i,double d,int k)
+	{
+		
+		System.out.println(i+d+k);
+	}
+
+}
+
+
+
+public class MethodOverloading {
+
+	public static void main(String[] args) {
+      Love obj = new Love(5,5,5);
+      
+
+	}
+
+}

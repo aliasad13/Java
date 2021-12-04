@@ -1,0 +1,40 @@
+package objectMethodConstructor;
+
+class Constructor2 
+{
+	
+	public Constructor2(int i,int j)
+	{
+		
+	System.out.println(i + j);
+		
+	}
+	
+	public Constructor2(int i,int j,int k)
+	{
+		
+		System.out.println(i+j+k);
+	}
+	
+	public Constructor2(int i,double d,int k)
+	{
+		
+		System.out.println(i+d+k);
+	}
+
+}
+
+
+
+public class Constructor2 {
+
+	public static void main(String[] args) {
+      Constructor2 obj = new Constructor2(5,5.5,5);
+     
+
+	}
+
+}
+
+
+

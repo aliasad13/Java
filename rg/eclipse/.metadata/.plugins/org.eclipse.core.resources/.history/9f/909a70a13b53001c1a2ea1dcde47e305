@@ -1,0 +1,41 @@
+package mulpleinheritance;
+
+interface Demo{
+	void abc();
+	default public void show() {
+		
+		System.out.println("from Demo");
+	}
+	
+}
+
+interface MyDemo{
+	default public void show() {
+		
+		System.out.println("from mydemo");
+	}
+}
+
+class A implements Demo,MyDemo{
+	
+	public void abc() {
+		System.out.println("");
+	}
+
+	@Override
+	public void show() {
+		// TODO Auto-generated method stub
+		Demo.super.show();
+	}
+}
+
+public class MInheritanceUsingErrorfix {
+
+	public static void main(String[] args) {
+           Demo obj = new A();
+           obj.abc();
+           obj.show();
+           
+	}
+
+}

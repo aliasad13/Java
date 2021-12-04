@@ -1,0 +1,10 @@
+package access2;
+
+public class Access2 extends A{
+
+	public static void main(String[] args) {
+		
+
+	}
+
+}

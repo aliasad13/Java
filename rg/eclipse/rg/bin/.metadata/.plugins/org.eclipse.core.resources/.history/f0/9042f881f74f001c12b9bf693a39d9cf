@@ -1,0 +1,10 @@
+package mulpleinheritance;
+
+public class MInheritanceUsingErrorfix {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

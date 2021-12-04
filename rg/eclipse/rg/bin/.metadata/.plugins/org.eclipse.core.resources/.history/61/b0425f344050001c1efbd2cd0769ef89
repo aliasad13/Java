@@ -1,0 +1,12 @@
+package com.accessModifier.anonymous;
+
+public class Access1 {
+
+	public static void main(String[] args) {
+		A obj = new A();                               //class A from same package,obj.result is taken from the other class of same package
+		System.out.println(obj.result(9,9));
+
+
+	}
+
+}

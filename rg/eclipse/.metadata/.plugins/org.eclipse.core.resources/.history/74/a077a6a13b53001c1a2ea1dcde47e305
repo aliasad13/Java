@@ -1,0 +1,11 @@
+package com.accessModifier.anonymous;
+
+public class AccessmodiferTest {
+
+	public static void main(String[] args) {
+		
+		
+		
+	}
+
+}

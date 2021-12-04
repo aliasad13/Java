@@ -1,0 +1,11 @@
+package com.accessModifier.anonymous;
+
+public class Access1 {
+
+	public static void main(String[] args) {
+		A obj = new A();
+		System.out.println(obj.result(9,9));
+
+	}
+
+}

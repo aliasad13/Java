@@ -1,0 +1,20 @@
+package finalkeyword;
+class Variable{
+	int i=0;
+	
+	public void A() {
+		
+		i =1;
+		
+	}
+	
+}
+
+public class FinalVariable {
+
+	public static void main(String[] args) {
+		Variable obj = new Variable();
+		System.out.println(obj.i);
+	}
+
+}

@@ -1,0 +1,46 @@
+package interface2;
+
+
+class Pen{
+
+public void write()
+{
+	System.out.println("Im a pen");
+}
+}
+class Pencil
+{
+public void write() {
+	System.out.println("Im a pencil");
+}	
+}
+
+class Kit{
+
+public void doSomething(Pencil a) {
+
+a.write();
+}
+
+public void doSomething(Pen p) {
+	p.write();
+}
+
+
+	
+	
+}
+public class Interface2 {
+
+	public static void main(String[] args) {
+                  Pen p = new Pen();
+                  Kit k = new Kit();
+                  Pencil a = new Pencil();
+                  
+               k.doSomething(a);  
+               k.doSomething(p); 
+              
+	}
+
+}
+

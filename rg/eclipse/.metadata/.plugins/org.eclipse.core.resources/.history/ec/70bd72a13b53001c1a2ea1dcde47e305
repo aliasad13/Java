@@ -1,0 +1,27 @@
+package objectMethodConstructor;
+
+class Calc{
+	int num1;
+	int num2;
+	int result;
+	public void addition(int i,int j)
+	{
+		i=num1;
+		j=num2;
+	System.out.println(i + j);	
+		
+	}
+	
+}
+
+
+
+public class MethodOverloading {
+
+	public static void main(String[] args) {
+      Calc obj = new Calc();
+      obj.addition(5, 6);;
+
+	}
+
+}

@@ -1,0 +1,11 @@
+package com.accessModifier.anonymous;
+
+public class Access1 {
+
+	public static void main(String[] args) {
+		AccessmodiferTest obj = new AccessmodiferTest();
+		obj.main();
+
+	}
+
+}

@@ -1,0 +1,10 @@
+package com.multithreading;
+
+public class MultiThreding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

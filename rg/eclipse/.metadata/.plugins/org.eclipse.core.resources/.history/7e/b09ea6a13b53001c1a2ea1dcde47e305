@@ -1,0 +1,42 @@
+
+
+	@FunctionalInterface
+	interface A{
+		void dontShow();
+		default void Show() {
+			System.out.println("default Method");
+		}
+		
+		default void hello() {
+				
+			System.out.println("default method 2");
+		}
+		
+		
+	}
+			
+		class B implements A {
+			
+			public void dontShow() {
+				System.out.println("defined now");
+			}
+			
+			public void hello() {
+				System.out.println("not default");
+			}
+			
+		
+		
+	}
+		public class DefaultMethod {
+
+	public static void main(String[] args) {
+		
+		A obj= new B();
+		obj.Show();
+		obj.hello();
+		
+           
+	}
+
+}

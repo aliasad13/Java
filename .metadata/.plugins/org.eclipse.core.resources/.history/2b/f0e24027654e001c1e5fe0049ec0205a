@@ -1,0 +1,29 @@
+package finalkeyword;
+
+class C {
+	
+	 public void show() {
+		
+		System.out.println("in A");
+	}
+	
+}
+
+class D extends C{
+	
+
+}
+
+
+public class FinalMethod {
+	
+
+	public static void main(String[] args) {
+		
+		B obj = new B();
+		obj.show();
+
+	}
+
+}
+

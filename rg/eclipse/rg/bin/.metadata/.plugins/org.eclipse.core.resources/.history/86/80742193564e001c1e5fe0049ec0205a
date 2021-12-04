@@ -1,0 +1,25 @@
+package abstractclass;  // another way to print a number
+
+
+class Print{
+	public void show(int i) {
+		
+		System.out.println(i);
+		
+		
+	}
+}
+
+public class AnotherWayToPrint {
+
+	public static void main(String[] args) {
+		Print obj = new Print();
+		obj.show(5);
+		
+		
+		
+		
+		
+	}
+
+}

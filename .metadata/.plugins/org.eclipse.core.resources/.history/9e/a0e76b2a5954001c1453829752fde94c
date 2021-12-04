@@ -1,0 +1,33 @@
+package re;
+
+class A{
+	
+	public void show() {
+		System.out.println("hello from A");
+	}	
+}
+
+
+
+
+
+
+public class Rere {
+
+	public static void main(String[] args) {
+	
+		A obj = new A()
+				{
+			public void show() {
+				System.out.println("hello from b");
+			}	
+			
+			
+				}
+				;
+		obj.show();
+		
+		
+	}
+
+}

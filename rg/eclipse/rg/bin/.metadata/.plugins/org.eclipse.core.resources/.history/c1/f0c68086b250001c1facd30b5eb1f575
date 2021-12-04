@@ -1,0 +1,14 @@
+package com.scanner;
+
+import java.util.Scanner;
+
+public class Scannr{
+public static void main(String[] args) {
+	System.out.print("enter the number here : ");
+	double n=0;
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextDouble();
+	System.out.println("the number is "+n);
+	
+}	
+}

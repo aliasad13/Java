@@ -1,0 +1,30 @@
+package patterns;
+/*
+ *  *
+ *  **
+ *  ***
+ *  ****
+ * 
+ */
+public class Pattern2 {
+
+	public static void main(String[] args) {
+		
+		char c=1;
+		for (char i =1;i<=4;i++) {
+			
+			for (char j =1;j<=i;j++) {
+				
+				System.out.print(j);  //for 1 22 333 put i //for 1 23 4
+				c++;
+				
+				}
+			System.out.println();
+			
+		} 
+		
+		
+
+	}
+
+}

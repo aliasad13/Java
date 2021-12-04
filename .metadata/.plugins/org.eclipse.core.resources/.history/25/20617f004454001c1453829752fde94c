@@ -1,0 +1,17 @@
+package adfs;
+
+public class Enc {
+	int rollno;
+	String name;
+
+	public static void main(String[] args) {
+
+		Enc s1 = new Enc();
+		s1.rollno=1;
+		System.out.println(s1.rollno);
+		
+		
+		
+	}
+
+}

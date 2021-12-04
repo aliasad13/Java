@@ -1,0 +1,19 @@
+package adfs;
+
+public class Enc {
+	int rollno=0;
+	String name;
+public void setRollno() {
+	
+}
+	public static void main(String[] args) {
+
+		Enc s1 = new Enc();
+		s1.rollno=1;                              //Accessing variables directly is dangerous
+		System.out.println(s1.rollno);
+		
+		
+		
+	}
+
+}

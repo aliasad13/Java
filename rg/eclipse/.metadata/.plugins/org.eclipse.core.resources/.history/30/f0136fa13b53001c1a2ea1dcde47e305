@@ -1,0 +1,50 @@
+package com.calculator;
+import java.util.Scanner; 
+public class Calc {
+
+	public static void main(String[] args) {
+		
+		Scanner sc = new Scanner(System.in);
+		
+		
+		int i=0;
+	    
+		
+		System.out.println("1=add");
+		System.out.println("2=sub");
+		System.out.println("3=mul");
+		System.out.println("4=div");
+		
+		System.out.print("choose your opton : ");
+		i=sc.nextInt();
+		
+	
+		double n=0,m=0;
+		
+		System.out.print("enter the first no : ");
+		n=sc.nextInt();
+		System.out.print("enter the 2nd no : ");
+		m=sc.nextInt();
+		
+		double add=n+m;
+		double sub=n-m;
+		double mul=n*m;
+		double div=n-m;
+		
+		if (i==1)
+		{
+			System.out.println("the add is "+add);
+		}
+		
+		else if(i==2) {
+			System.out.println("the sub is " + sub);
+		}
+		else if (i==3) {
+			System.out.println("the mul is " + mul );
+		}
+		else {
+			System.out.println("the div is " + div);
+		}
+	}
+
+}

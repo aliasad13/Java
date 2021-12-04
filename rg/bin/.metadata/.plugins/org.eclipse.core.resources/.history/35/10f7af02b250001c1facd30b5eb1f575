@@ -1,0 +1,13 @@
+package com.scanner;
+
+import java.util.Scanner;
+
+public class Scannr{
+public static void main(String[] args) {
+	
+	double n=0;
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextDouble();
+	System.out.println(n);
+}	
+}

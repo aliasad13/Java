@@ -1,0 +1,20 @@
+package com.accessModifier.anonymous;
+class A{
+
+public void perform(int i,int j,int res) {
+	
+	res = i+j;
+}
+}
+
+//default class only inside package
+public class AccessmodiferTest {
+
+	public static void main(String[] args) {
+		
+		A obj = new A();
+		obj.perform(8,9);
+		
+	}
+
+}

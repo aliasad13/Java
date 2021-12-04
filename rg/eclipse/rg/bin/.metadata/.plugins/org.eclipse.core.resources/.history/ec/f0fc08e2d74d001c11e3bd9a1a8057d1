@@ -1,0 +1,14 @@
+
+public class WrapperClass {
+
+	public static void main(String[] args) {
+	
+		int i=5;
+		
+		 String str = "123";
+		int n=parseInt(str);
+		 
+	}
+
+}
+//removed from java from version 9

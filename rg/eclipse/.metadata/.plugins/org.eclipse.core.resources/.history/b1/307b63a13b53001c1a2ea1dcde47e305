@@ -1,0 +1,23 @@
+package variablearguments;
+class Add{
+	int i,j,k;
+	public void add() {					//int is the return type here.// public void add(){
+		                                                               //  int k=i+j; } can be used.
+		System.out.println( k= i+j);
+		
+	}
+	
+}
+
+
+public class VarArgs {
+
+	public static void main(String[] args) {
+		Add obj = new Add();
+		obj.add();
+		
+		System.out.println(obj.k); 
+
+	}
+
+}

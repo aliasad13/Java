@@ -1,0 +1,29 @@
+package adfs;
+
+public class Enc {
+	private int rollno=0;
+	private String name;
+ public void setRollno(int i) {  // thus methods are also called getters and setters
+	rollno = i;
+	
+}
+ 
+ public int getRollno() {
+	 
+	 return rollno;
+ }
+
+
+	public static void main(String[] args) {
+
+		Enc s1 = new Enc();
+		Enc s2 = new Enc();
+		s1.rollno=1;     //here variable is accessed directly                         //Accessing variables directly is dangerous
+		System.out.println(s1.rollno);
+		
+		s2.setRollno(2);//here variable or data is accessd throgh methods.So we can vriables private 
+		System.out.println(s2.getRollno());		
+		
+	}
+
+}

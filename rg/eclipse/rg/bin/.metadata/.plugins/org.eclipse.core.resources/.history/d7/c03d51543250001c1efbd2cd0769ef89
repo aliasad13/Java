@@ -1,0 +1,14 @@
+package trycatch;
+
+public class TryCatchException {
+
+	public static void main(String[] args) {
+		int i=12,j=0;
+		try{double res=i/j;}
+		
+		catch (Exception e)
+		{System.out.println("error");}
+		System.out.println("oke beii");
+	}
+
+}

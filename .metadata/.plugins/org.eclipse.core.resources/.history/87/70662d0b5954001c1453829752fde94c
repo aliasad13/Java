@@ -1,0 +1,29 @@
+package re;
+
+class A{
+	
+	public void show() {
+		System.out.println("hello from A");
+	}	
+}
+
+class B extends A{
+	
+	public void show() {
+		System.out.println("hello from b ");
+	}	
+}
+
+
+
+public class Rere {
+
+	public static void main(String[] args) {
+	
+		A obj = new B();
+		obj.show();
+		
+		
+	}
+
+}

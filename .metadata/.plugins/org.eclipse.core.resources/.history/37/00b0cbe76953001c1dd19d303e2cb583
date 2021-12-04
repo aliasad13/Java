@@ -1,0 +1,22 @@
+package com.pt;
+
+public class PrimeT {
+
+	public static void main(String[] args) {
+		
+		for(int j=2;j<=100;j++) {
+			
+		for (int i=2;i<=j;i++) {
+			
+			if (j%i==0) {
+				
+				System.out.println();
+			}
+			else
+			{System.out.println(j);}
+		}
+
+	}
+		}
+
+}

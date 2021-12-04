@@ -1,0 +1,33 @@
+package com.fibonacci;
+
+//1 1 2 3 5 8 13
+
+public class Fibonacci {
+
+	public static void main(String[] args) {
+		
+		int k,a,b;
+		 a=1;b=1;k=0;
+		 System.out.print("1 1 ");
+		 
+		 
+		 while(k<=30){
+			 
+			 k= a+b;   //we need k to be the sum of two variables ,one which stores its current value and other its previous value
+			 System.out.println(k + " ");
+			 a=b;
+			 b=k;
+			 
+			 
+			 
+			 
+		 }
+		
+		
+			
+		}
+			
+		
+	
+
+}

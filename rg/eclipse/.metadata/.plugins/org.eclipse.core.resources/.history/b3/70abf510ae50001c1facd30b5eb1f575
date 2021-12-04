@@ -1,0 +1,13 @@
+package com.scanner;
+
+public class Scanner {
+
+	public static void main(String[] args) {
+		
+		Scanner 
+		int n;
+		
+
+	}
+
+}

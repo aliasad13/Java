@@ -1,0 +1,57 @@
+package interface2;
+
+////////////////////////////////////////////////////
+class Writer{	
+	public void write() {
+		
+	}
+}
+
+//////////////////////////////////////////////////
+
+class Pen extends Writer{
+public void write()
+{
+	System.out.println("Im a pen");
+}
+}
+
+//////////////////////////////////////////////
+
+class Pencil extends Writer
+{
+public void write() {
+	System.out.println("Im a pencil");
+}	
+}
+
+
+///////////////////////////////////////////////////////
+
+class Kit{
+
+public void doSomething(Writer p ) {
+
+p.write();
+}
+
+
+////////////////////////////////////////////////////
+
+	
+	
+}
+public class Interface2 {
+
+	public static void main(String[] args) {
+                  Writer p = new Pen();
+                  Kit k = new Kit();
+                  Writer a = new Pencil();
+                  
+               k.doSomething(a);  
+               k.doSomething(p);
+              
+	}
+
+}
+

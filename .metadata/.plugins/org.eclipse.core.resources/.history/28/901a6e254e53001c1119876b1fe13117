@@ -1,0 +1,30 @@
+package com.test;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		
+		int number=45654;
+		int n =number;
+		int  res = 0;
+		
+		while(n>1) {
+		int remainder = n%10;
+		res = res * 10 + remainder;
+		n = n/10;
+		
+		
+		}
+		System.out.println(n);
+				
+if (number == res) {
+	
+	System.out.println("palindrome");
+}
+else {
+	System.out.println("notpalindrome");
+}
+
+	}
+
+}

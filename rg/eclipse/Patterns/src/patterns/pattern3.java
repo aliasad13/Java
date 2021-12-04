@@ -1,0 +1,30 @@
+package patterns;
+/*
+A
+BC
+DEF
+GHIJ
+ * 
+ */
+
+public class pattern3 {
+
+	
+		public static void main(String[] args) {
+			
+			char c=1;
+			for (char i =1;i<=4;i++) {
+				
+				for (char j =1;j<=i;j++) {
+					
+					System.out.print((char )(c+64));
+					c++;
+					
+					}
+				System.out.println();
+				
+			} 
+
+	}
+
+}

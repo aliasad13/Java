@@ -1,0 +1,27 @@
+package com.scanner;
+
+import java.util.Scanner;
+
+public class Scannr{
+	ystem.out.print("1");
+	
+	if (int a1=1) {                                              //fault on if condition
+public static void main(String[] args) {
+	System.out.print("enter the first number here : ");
+	double n;double m;
+	Scanner sc = new Scanner(System.in);
+	n = sc.nextDouble();
+	
+	System.out.print("enter the 2nd no here : ");
+	m = sc.nextDouble();
+	double k = n+m;
+	System.out.print(k);
+}}
+else if (int a = 2)
+	{double n,m;
+	{double k = n-m;}}
+
+else
+{double k = n*m ; }
+}	
+}

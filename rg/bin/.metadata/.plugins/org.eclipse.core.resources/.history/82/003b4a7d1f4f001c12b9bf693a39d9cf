@@ -1,0 +1,33 @@
+
+
+class A {
+		
+		public void show() {
+			System.out.println("by class A");
+		}
+		 
+    }
+	
+	class B extends A
+	{
+		
+		public void show() {                       //if our objective is to over ride a method what we do is  create its subclass and use the method of 
+			System.out.println("by class B");      //parent class.Instead of doing this we can take the contents of B and put it after creating object;
+		}                                          //this class wont be having a class name and is called anonymous class 
+		
+	}
+
+
+
+
+public class AnonymousClass {
+	
+	public static void main(String[] args) {
+		 A obj = new A();
+				 obj.show();
+		 
+		
+   
+	}
+
+}

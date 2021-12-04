@@ -1,0 +1,12 @@
+package tt;
+
+public class Trycatch {
+
+	public static void main(String[] args) {
+	int n[]= {1,2,3,4};
+	for (int q:n) {
+		System.out.println(q+ " ");
+	}
+	}
+
+}

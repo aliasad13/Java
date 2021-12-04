@@ -1,0 +1,30 @@
+package objectMethodConstructor;
+
+class A{
+
+	
+int num1,num2,result;
+ 
+public A()               //We know that constructor does not return any value,so even if we write 'void'
+						 //it will not show any error,but it wont be a constructor anymore
+{ num1=5;
+  num2=10;
+  
+	}
+}
+
+public class Constructor {
+
+	public static void main(String[] args) {
+		A obj=new A(); //as soon as we type new A();        //here we are calling a constructor which we do not 
+					   //it will create a new object        //have, A() in class A .What happens is that java knows 
+					   //and java will call the constructor //when ever a new object is created we need to call a constructor,
+					   //we dont have to call it			//U don't have to create it,instead java itself gives the constructor
+										 				    //to us.By default Java gives us a constructor and is called a default
+										                    //constructor and does not return any value.It does only one job ,allocating
+		System.out.println(obj.num1+obj.num2);								                    //memory.If we need a constructor for example ,one that assigns value
+										                    //we need to create it ourselves
+
+	}
+
+}

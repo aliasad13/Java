@@ -1,0 +1,35 @@
+class A {
+		
+		public void show() {
+			System.out.println("by class A");
+		}
+		 
+    }
+	
+	class B extends A
+	{
+		
+		public void show() {
+			System.out.println("by class B");
+		}
+		
+	}
+
+
+
+
+public class AnonymousClass {
+	
+	public static void main(String[] args) {
+		 A obj = new A(){
+				
+				public void show() {
+					System.out.println("by class B");
+				}
+				};
+				obj.show();
+		
+   
+	}
+
+}
